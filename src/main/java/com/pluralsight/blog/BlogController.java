@@ -16,8 +16,8 @@ public class BlogController {
 
     private PostRepository postRepository;
 
-    public BlogController() {
-        PostRepository postRepository = new PostRepository();
+    public BlogController(PostRepository postRepository) {
+//        PostRepository postRepository = new PostRepository();
     }
 
 }
